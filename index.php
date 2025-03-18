@@ -435,7 +435,7 @@
                                 </div>
                             </div>
 
-                            <div class="item">
+                            <!-- <div class="item">
                                 <div class="portfolio-box">
                                     <div class="image position-relative">
                                         <figure class="mb-0">
@@ -451,7 +451,7 @@
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
 
                             <div class="item">
@@ -483,7 +483,7 @@
                                     </div>
                                     <div class="box-content">
                                         <a href="#" class="text-decoration-none">
-                                            <h5>Dr Chandrashekar Dp</h5>
+                                            <h5>Dr Chandrashekar DP</h5>
                                         </a>
                                         <p class="text-size-14">JGI School, India</p>
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
@@ -503,7 +503,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Mr. Sanjay Yadav </h5>
                                         </a>
-                                        <p class="text-size-14">Jhlcon International School, New Delhi</p>
+                                        <p class="text-size-14">Ahlcon International School, New Delhi</p>
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -555,7 +555,7 @@
                                     </div>
                                     <div class="box-content">
                                         <a href="#" class="text-decoration-none">
-                                            <h5>Dr. Rajeshwari Sawan</h5>
+                                            <h5>Dr. Rajeshwari Sawant</h5>
                                         </a>
                                         <p class="text-size-14">Gwalior Glory High school, Gwalior</p>
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
