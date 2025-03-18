@@ -491,6 +491,78 @@
                                 </div>
                             </div>
 
+                            <div class="item">
+                                <div class="portfolio-box">
+                                    <div class="image position-relative">
+                                        <figure class="mb-0">
+                                            <img src="Profiles/1.png" alt="image" class="img-fluid">
+                                        </figure>
+                                        <span>Principal</span>
+                                    </div>
+                                    <div class="box-content">
+                                        <a href="#" class="text-decoration-none">
+                                            <h5>Mr. Sanjay Yadav </h5>
+                                        </a>
+                                        <p class="text-size-14">Jhlcon International School, New Delhi</p>
+                                        <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="portfolio-box">
+                                    <div class="image position-relative">
+                                        <figure class="mb-0">
+                                            <img src="Profiles/2.png" alt="image" class="img-fluid">
+                                        </figure>
+                                        <span>Principal</span>
+                                    </div>
+                                    <div class="box-content">
+                                        <a href="#" class="text-decoration-none">
+                                            <h5>Dr. Sushma Mandal</h5>
+                                        </a>
+                                        <p class="text-size-14">Dr. Virendra Swarup Public School Kanpur</p>
+                                        <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="portfolio-box">
+                                    <div class="image position-relative">
+                                        <figure class="mb-0">
+                                            <img src="Profiles/3.png" alt="image" class="img-fluid">
+                                        </figure>
+                                        <span>Principal</span>
+                                    </div>
+                                    <div class="box-content">
+                                        <a href="#" class="text-decoration-none">
+                                            <h5>Mr. Rehman Waris</h5>
+                                        </a>
+                                        <p class="text-size-14">GQ Public School, Kulgam</p>
+                                        <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="portfolio-box">
+                                    <div class="image position-relative">
+                                        <figure class="mb-0">
+                                            <img src="Profiles/4.png" alt="image" class="img-fluid">
+                                        </figure>
+                                        <span>Principal</span>
+                                    </div>
+                                    <div class="box-content">
+                                        <a href="#" class="text-decoration-none">
+                                            <h5>Dr. Rajeshwari Sawan</h5>
+                                        </a>
+                                        <p class="text-size-14">Gwalior Glory High school, Gwalior</p>
+                                        <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
 
 
                         </div>
@@ -560,81 +632,7 @@
 
 
     <!-- JavaScript for Form Submission -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const form = document.getElementById('contactpage');
-            const submitBtn = document.getElementById('submit-btn');
-            const buttonText = submitBtn.querySelector('.button-text');
-            const loader = submitBtn.querySelector('.loader');
-            const messageDiv = document.getElementById('registration-message');
 
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
-
-                // Show loader, disable button
-                loader.style.display = 'inline-block';
-                buttonText.textContent = 'Processing...';
-                submitBtn.disabled = true;
-                form.classList.add('form-disabled');
-
-                // Gather form data
-                const formData = new FormData(form);
-
-                // Send AJAX request
-                fetch('register.php', {
-                        method: 'POST',
-                        body: formData
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        // Hide loader
-                        loader.style.display = 'none';
-
-                        // Display response message
-                        messageDiv.style.display = 'block';
-                        messageDiv.textContent = data.message;
-
-                        if (data.success) {
-                            messageDiv.className = 'alert alert-success';
-                            form.reset(); // Clear form on success
-                            buttonText.textContent = 'Registered!';
-
-                            // Reset button after 3 seconds
-                            setTimeout(() => {
-                                buttonText.textContent = 'Register Now';
-                                submitBtn.disabled = false;
-                                form.classList.remove('form-disabled');
-                            }, 3000);
-                        } else {
-                            messageDiv.className = 'alert alert-danger';
-                            buttonText.textContent = 'Register Now';
-                            submitBtn.disabled = false;
-                            form.classList.remove('form-disabled');
-                        }
-
-                        // Auto-hide message after 5 seconds
-                        setTimeout(() => {
-                            messageDiv.style.display = 'none';
-                        }, 5000);
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                        loader.style.display = 'none';
-                        messageDiv.style.display = 'block';
-                        messageDiv.className = 'alert alert-danger';
-                        messageDiv.textContent = 'An error occurred. Please try again later.';
-                        buttonText.textContent = 'Register Now';
-                        submitBtn.disabled = false;
-                        form.classList.remove('form-disabled');
-
-                        // Auto-hide message after 5 seconds
-                        setTimeout(() => {
-                            messageDiv.style.display = 'none';
-                        }, 30000);
-                    });
-            });
-        });
-    </script>
     <!-- Amazing -->
     <section class="amazing-con position-relative">
         <figure class="amazing-sideimage mb-0">
@@ -1006,6 +1004,81 @@
                 .catch(error => {
                     console.error('Error:', error);
                 });
+        });
+    </script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactpage');
+            const submitBtn = document.getElementById('submit-btn');
+            const buttonText = submitBtn.querySelector('.button-text');
+            const loader = submitBtn.querySelector('.loader');
+            const messageDiv = document.getElementById('registration-message');
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                // Show loader, disable button
+                loader.style.display = 'inline-block';
+                buttonText.textContent = 'Processing...';
+                submitBtn.disabled = true;
+                form.classList.add('form-disabled');
+
+                // Gather form data
+                const formData = new FormData(form);
+
+                // Send AJAX request
+                fetch('register.php', {
+                        method: 'POST',
+                        body: formData
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        // Hide loader
+                        loader.style.display = 'none';
+
+                        // Display response message
+                        messageDiv.style.display = 'block';
+                        messageDiv.textContent = data.message;
+
+                        if (data.success) {
+                            messageDiv.className = 'alert alert-success';
+                            form.reset(); // Clear form on success
+                            buttonText.textContent = 'Registered!';
+
+                            // Reset button after 3 seconds
+                            setTimeout(() => {
+                                buttonText.textContent = 'Register Now';
+                                submitBtn.disabled = false;
+                                form.classList.remove('form-disabled');
+                            }, 3000);
+                        } else {
+                            messageDiv.className = 'alert alert-danger';
+                            buttonText.textContent = 'Register Now';
+                            submitBtn.disabled = false;
+                            form.classList.remove('form-disabled');
+                        }
+
+                        // Auto-hide message after 5 seconds
+                        setTimeout(() => {
+                            messageDiv.style.display = 'none';
+                        }, 5000);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        loader.style.display = 'none';
+                        messageDiv.style.display = 'block';
+                        messageDiv.className = 'alert alert-danger';
+                        messageDiv.textContent = 'An error occurred. Please try again later.';
+                        buttonText.textContent = 'Register Now';
+                        submitBtn.disabled = false;
+                        form.classList.remove('form-disabled');
+
+                        // Auto-hide message after 5 seconds
+                        setTimeout(() => {
+                            messageDiv.style.display = 'none';
+                        }, 30000);
+                    });
+            });
         });
     </script>
 
