@@ -353,7 +353,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Mr. Gaurava Yadav</h5>
                                         </a>
-                                        <p class="text-size-14">Indian Principals' Network</p>
+                                        <p class="text-size-14">Indian Principals' Network, India</p>
                                         <a href="https://www.linkedin.com/in/gauravayadav?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -372,7 +372,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Mr. Vivek Atray </h5>
                                         </a>
-                                        <p class="text-size-14">ex IAS, Keynote Corporate Leadership (EI vs AI) Speaker</p>
+                                        <p class="text-size-14">ex IAS, Keynote Corporate Leadership (EI vs AI) Speaker, India</p>
                                         <a href="https://www.linkedin.com/in/vivek-atray-9464434?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -391,7 +391,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Mr. John Bagul</h5>
                                         </a>
-                                        <p class="text-size-14">Athlead International School, Kolkata</p>
+                                        <p class="text-size-14">Athlead International School, Kolkata, India</p>
                                         <a href="https://www.linkedin.com/in/john-b-7683118?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -410,7 +410,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Mr. Chandrayan Pradhan Shrestha</h5>
                                         </a>
-                                        <p class="text-size-14">The Chandbagh School Kathmandu, Nepal</p>
+                                        <p class="text-size-14">The Chandbagh School, Kathmandu, Nepal</p>
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -429,7 +429,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Mr Kumar Thapa </h5>
                                         </a>
-                                        <p class="text-size-14">Brihaspati Vidyasadan Kathmandu Nepal </p>
+                                        <p class="text-size-14">Brihaspati Vidyasadan, Kathmandu, Nepal </p>
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -466,7 +466,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Rishikesh Bhattarai </h5>
                                         </a>
-                                        <p class="text-size-14">Shramsheel Vidyapith Kathmandu Nepal </p>
+                                        <p class="text-size-14">Shramsheel Vidyapith, Kathmandu, Nepal </p>
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -503,7 +503,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Mr. Sanjay Yadav </h5>
                                         </a>
-                                        <p class="text-size-14">Ahlcon International School, New Delhi</p>
+                                        <p class="text-size-14">Ahlcon International School, New Delhi, India</p>
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -521,7 +521,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Dr. Sushma Mandal</h5>
                                         </a>
-                                        <p class="text-size-14">Dr. Virendra Swarup Public School Kanpur</p>
+                                        <p class="text-size-14">Dr. Virendra Swarup Public School, Kanpur, India</p>
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -539,7 +539,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Mr. Rehman Waris</h5>
                                         </a>
-                                        <p class="text-size-14">GQ Public School, Kulgam</p>
+                                        <p class="text-size-14">GQ Public School, Kulgam, India</p>
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
@@ -557,7 +557,7 @@
                                         <a href="#" class="text-decoration-none">
                                             <h5>Dr. Rajeshwari Sawant</h5>
                                         </a>
-                                        <p class="text-size-14">Gwalior Glory High school, Gwalior</p>
+                                        <p class="text-size-14">Gwalior Glory High school, Gwalior, India</p>
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
