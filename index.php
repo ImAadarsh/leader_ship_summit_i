@@ -51,7 +51,66 @@
 
     gtag('config', 'G-04JL4R28ZX');
     </script>
+<style>.legal_situation_banner {
+    overflow: hidden;
+}
 
+.cloud-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.cloud {
+    position: absolute;
+    opacity: 0.7;
+}
+
+.cloud1 {
+    top: 20%;
+    left: -10%;
+    width: 20%;
+    animation: moveCloud 30s linear infinite;
+}
+
+.cloud2 {
+    top: 40%;
+    left: -15%;
+    width: 25%;
+    animation: moveCloud 25s linear infinite;
+}
+
+.cloud3 {
+    top: 60%;
+    left: -20%;
+    width: 30%;
+    animation: moveCloud 35s linear infinite;
+}
+
+.cloud4 {
+    top: 80%;
+    left: -25%;
+    width: 35%;
+    animation: moveCloud 40s linear infinite;
+}
+
+@keyframes moveCloud {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100vw);
+    }
+}
+
+.banner_content {
+    position: relative;
+    z-index: 2;
+}
+</style>
   
 </head>
 
@@ -123,6 +182,12 @@
         </header>
         <!-- Banner -->
         <section class="legal_situation_banner position-relative">
+            <div class="cloud-container">
+            <img src="/clouds/1.svg" class="cloud cloud1" alt="Cloud 1">
+            <img src="/clouds/2.svg" class="cloud cloud2" alt="Cloud 2">
+            <img src="/clouds/3.svg" class="cloud cloud3" alt="Cloud 3">
+            <img src="/clouds/4.svg" class="cloud cloud4" alt="Cloud 4">
+            </div>
             <div class="container position-relative">
                 <div class="row">
                     <div class="col-12">
