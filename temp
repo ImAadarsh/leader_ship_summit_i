@@ -1,0 +1,16 @@
+Currently we are using the % wise coupon discount I want to apply that flat price off, Need to remove the % discount total.
+1. Remove % Discount.
+2. Add Flat Discount
+3. add editional consition to add school_id or workshop_id,
+4. If School id is add then only that school can use that coupon.
+5. If workshop_id is add then that coupon can be used on that workshop only.
+6. If Both is added then combination of both.
+7. If both are not added then it will act as normal coupon for all.
+8 	type	int(11)			No	0	0=Upcoming, 1=Previous, Coupons are also according to the workshop type.
+
+
+`coupons` (`id`, `coupon_code`, `discount_type`, `value`, `valid_till`, `count`, `school_id`, 'workshop_id','workshop_type',`updated_at`, `created_at`)
+`payments`(`id`, `user_id`, `workshop_id`, `payment_id`, `amount`, `order_id`, `mail_send`, `last_mail`, `verify_token`, `url`, `payment_status`, `cpd`, `coupon_code`, `review`, `is_school`, `school_id`, `report_id`, `duration`, `created_at`, `updated_at`)
+`carts`(`id`, `user_id`, `is_bought`, `discount`, `price`, `payment_id`, `payment_status`, `requesting_payment`, `order_id`, `verify_token`, `url`, `webhook`, `created_at`, `updated_at`)
+`items`(`id`, `cart_id`, `workshop_id`, `price`, `coupon_code`, `discount`, `created_at`, `updated_at`) 
+`workshops`(`id`, `name`, `trainer_id`, `trainer_name`, `trainer_image`, `trainer_description`, `image`, `info`, `duration`, `start_date`, `price`, `price_2`, `cut_price`, `description`, `link`, `rlink`, `category_id`, `type`, `skills`, `video_banner`, `video_link`, `status`, `notify`, `w_status`, `meeting_id`, `passcode`, `cpd`, `is_premium`, `is_deleted`, `is_2024`, `report_generated`, `created_at`, `updated_at`)

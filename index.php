@@ -334,7 +334,7 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                         <div class="content">
                             <h6 style="color: black;">Speakers</h6>
-                            <h2 style="color: black;" class="mb-0">Meet Our Speakers</h2>
+                            <h2 style="color: black;" class="mb-0">Meet Our Esteemed Participating Leaders from across South ASIA</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
