@@ -333,7 +333,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                         <div class="content">
-                            <h6 style="color: black;">Speakers</h6>
+                            <h6 style="color: black;">Participating Leaders</h6>
                             <h3 style="color: black;" class="mb-0">Meet Our Esteemed Participating Leaders from across South ASIA</h3>
                         </div>
                     </div>
@@ -347,7 +347,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="owl-carousel owl-theme">
-                            
+
                             <div class="item">
                                 <div class="portfolio-box">
                                     <div class="image position-relative">
