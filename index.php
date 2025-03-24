@@ -635,6 +635,24 @@
                                 </div>
                             </div>
 
+                            <div class="item">
+                                <div class="portfolio-box">
+                                    <div class="image position-relative">
+                                        <figure class="mb-0">
+                                            <img src="Profiles/4.png" alt="image" class="img-fluid">
+                                        </figure>
+                                        <span>founder Director</span>
+                                    </div>
+                                    <div class="box-content">
+                                        <a href="#" class="text-decoration-none">
+                                            <h5>Ms. Diptee Acharya </h5>
+                                        </a>
+                                        <p class="text-size-14">Sanskriti International School, Kathmandu, Nepal</p>
+                                        <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
 
 
                         </div>
