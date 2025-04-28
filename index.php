@@ -145,7 +145,7 @@
 
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="India-Nepal_School_Leaders_Agenda.pdf"> Agenda </a>
+                                <a class="nav-link " href="nepal_agenda_29_apr.pdf"> Agenda </a>
 
                             </li>
                             <li class="nav-item ">
