@@ -432,7 +432,7 @@
                             </div>
 
 
-                            <div class="item">
+                            <!-- <div class="item">
                                 <div class="portfolio-box">
                                     <div class="image position-relative">
                                         <figure class="mb-0">
@@ -448,7 +448,7 @@
                                         <a href="https://www.linkedin.com/in/vivek-atray-9464434?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
 
                             <div class="item">
@@ -545,7 +545,7 @@
                             </div>
 
 
-                            <div class="item">
+                            <!-- <div class="item">
                                 <div class="portfolio-box">
                                     <div class="image position-relative">
                                         <figure class="mb-0">
@@ -561,7 +561,7 @@
                                         <a href="#" class="text-decoration-none"><i class="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div class="item">
                                 <div class="portfolio-box">
