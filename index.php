@@ -639,7 +639,7 @@
                                 <div class="portfolio-box">
                                     <div class="image position-relative">
                                         <figure class="mb-0">
-                                            <img src="Profiles/4.png" alt="image" class="img-fluid">
+                                            <img src="Profiles/7.png" alt="image" class="img-fluid">
                                         </figure>
                                         <span>founder Director</span>
                                     </div>
