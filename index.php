@@ -3,12 +3,16 @@
 
 <head>
     <title>India Nepal School Leaders' Summit 2025</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta charset="utf-8">
 
     <!-- SEO Ultimate -->
     <meta name="description" content="Join The India Nepal School Leaders' Summit on 09th May 2025. Explore sustainable education through innovative approaches with top speakers and engaging sessions.">
     <meta name="keywords" content="India Nepal School Leaders' Summit, School Leadership, Educational Conference 2025, India Nepal Education, Endeavour Digital">
+    <meta name="author" content="Endeavour Digital">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
 
     <!-- Same head content as original, updating meta tags -->
     <meta property="og:title" content="India Nepal School Leaders' Summit 2025">
